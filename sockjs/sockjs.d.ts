@@ -50,3 +50,7 @@ declare var SockJS: {
         };
     }): SockJS;
 };
+
+declare module "SockJS" {
+    export = SockJS;
+}
